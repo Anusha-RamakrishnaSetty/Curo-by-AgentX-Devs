@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Messaging Queue</name>
+    <queueMembers>
+        <users>
+            <user>anusha.ramakrishnasetty@gmail.com.tdx</user>
+            <user>health-agent@yopmail.com</user>
+            <user>madan@younion.live.tdx</user>
+            <user>epic.44419b992774@orgfarm.com</user>
+            <user>rakesh-ramaswamy@pluralsight.com.hackathontdx2025</user>
+            <user>saikrishna.sf11@gmail.com.tdx</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>MessagingSession</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>MessagingSession</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Category__c</fullName>
+    <label>Sub Category</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cardiac Arrest</fullName>
+                <default>false</default>
+                <label>Cardiac Arrest</label>
+            </value>
+            <value>
+                <fullName>Respiratory Distress</fullName>
+                <default>false</default>
+                <label>Respiratory Distress</label>
+            </value>
+            <value>
+                <fullName>Trauma</fullName>
+                <default>false</default>
+                <label>Trauma</label>
+            </value>
+            <value>
+                <fullName>Infectious Disease</fullName>
+                <default>false</default>
+                <label>Infectious Disease</label>
+            </value>
+            <value>
+                <fullName>Mental Health Crisis</fullName>
+                <default>false</default>
+                <label>Mental Health Crisis</label>
+            </value>
+            <value>
+                <fullName>Structure Fire</fullName>
+                <default>false</default>
+                <label>Structure Fire</label>
+            </value>
+            <value>
+                <fullName>Wildfire</fullName>
+                <default>false</default>
+                <label>Wildfire</label>
+            </value>
+            <value>
+                <fullName>Electrical Fire</fullName>
+                <default>false</default>
+                <label>Electrical Fire</label>
+            </value>
+            <value>
+                <fullName>Vehicle Fire</fullName>
+                <default>false</default>
+                <label>Vehicle Fire</label>
+            </value>
+            <value>
+                <fullName>Explosion</fullName>
+                <default>false</default>
+                <label>Explosion</label>
+            </value>
+            <value>
+                <fullName>Unauthorized Access</fullName>
+                <default>false</default>
+                <label>Unauthorized Access</label>
+            </value>
+            <value>
+                <fullName>Theft</fullName>
+                <default>false</default>
+                <label>Theft</label>
+            </value>
+            <value>
+                <fullName>Assault</fullName>
+                <default>false</default>
+                <label>Assault</label>
+            </value>
+            <value>
+                <fullName>Vandalism</fullName>
+                <default>false</default>
+                <label>Vandalism</label>
+            </value>
+            <value>
+                <fullName>Armed Activity</fullName>
+                <default>false</default>
+                <label>Armed Activity</label>
+            </value>
+            <value>
+                <fullName>Bomb Threat</fullName>
+                <default>false</default>
+                <label>Bomb Threat</label>
+            </value>
+            <value>
+                <fullName>Cybersecurity Breach</fullName>
+                <default>false</default>
+                <label>Cybersecurity Breach</label>
+            </value>
+            <value>
+                <fullName>Slip/Fall</fullName>
+                <default>false</default>
+                <label>Slip/Fall</label>
+            </value>
+            <value>
+                <fullName>Vehicle Accident</fullName>
+                <default>false</default>
+                <label>Vehicle Accident</label>
+            </value>
+            <value>
+                <fullName>Equipment Injury</fullName>
+                <default>false</default>
+                <label>Equipment Injury</label>
+            </value>
+            <value>
+                <fullName>Workplace Injury</fullName>
+                <default>false</default>
+                <label>Workplace Injury</label>
+            </value>
+            <value>
+                <fullName>Near Miss</fullName>
+                <default>false</default>
+                <label>Near Miss</label>
+            </value>
+            <value>
+                <fullName>Earthquake</fullName>
+                <default>false</default>
+                <label>Earthquake</label>
+            </value>
+            <value>
+                <fullName>Flood</fullName>
+                <default>false</default>
+                <label>Flood</label>
+            </value>
+            <value>
+                <fullName>Hurricane</fullName>
+                <default>false</default>
+                <label>Hurricane</label>
+            </value>
+            <value>
+                <fullName>Tornado</fullName>
+                <default>false</default>
+                <label>Tornado</label>
+            </value>
+            <value>
+                <fullName>Severe Weather</fullName>
+                <default>false</default>
+                <label>Severe Weather</label>
+            </value>
+            <value>
+                <fullName>Landslide</fullName>
+                <default>false</default>
+                <label>Landslide</label>
+            </value>
+            <value>
+                <fullName>Chemical Spill</fullName>
+                <default>false</default>
+                <label>Chemical Spill</label>
+            </value>
+            <value>
+                <fullName>Gas Leak</fullName>
+                <default>false</default>
+                <label>Gas Leak</label>
+            </value>
+            <value>
+                <fullName>Radiation Exposure</fullName>
+                <default>false</default>
+                <label>Radiation Exposure</label>
+            </value>
+            <value>
+                <fullName>Biological Hazard</fullName>
+                <default>false</default>
+                <label>Biological Hazard</label>
+            </value>
+            <value>
+                <fullName>Disease Outbreak</fullName>
+                <default>false</default>
+                <label>Disease Outbreak</label>
+            </value>
+            <value>
+                <fullName>Foodborne Illness</fullName>
+                <default>false</default>
+                <label>Foodborne Illness</label>
+            </value>
+            <value>
+                <fullName>Water Contamination</fullName>
+                <default>false</default>
+                <label>Water Contamination</label>
+            </value>
+            <value>
+                <fullName>Mass Casualty</fullName>
+                <default>false</default>
+                <label>Mass Casualty</label>
+            </value>
+            <value>
+                <fullName>Pollution</fullName>
+                <default>false</default>
+                <label>Pollution</label>
+            </value>
+            <value>
+                <fullName>Wildlife Incident</fullName>
+                <default>false</default>
+                <label>Wildlife Incident</label>
+            </value>
+            <value>
+                <fullName>Environmental Spill</fullName>
+                <default>false</default>
+                <label>Environmental Spill</label>
+            </value>
+            <value>
+                <fullName>Air Quality Issue</fullName>
+                <default>false</default>
+                <label>Air Quality Issue</label>
+            </value>
+            <value>
+                <fullName>Service Outage</fullName>
+                <default>false</default>
+                <label>Service Outage</label>
+            </value>
+            <value>
+                <fullName>Supply Chain Disruption</fullName>
+                <default>false</default>
+                <label>Supply Chain Disruption</label>
+            </value>
+            <value>
+                <fullName>Staff Shortage</fullName>
+                <default>false</default>
+                <label>Staff Shortage</label>
+            </value>
+            <value>
+                <fullName>Policy/Procedure Issue</fullName>
+                <default>false</default>
+                <label>Policy/Procedure Issue</label>
+            </value>
+            <value>
+                <fullName>Aid Distribution Incident</fullName>
+                <default>false</default>
+                <label>Aid Distribution Incident</label>
+            </value>
+            <value>
+                <fullName>Supply Theft</fullName>
+                <default>false</default>
+                <label>Supply Theft</label>
+            </value>
+            <value>
+                <fullName>Beneficiary Affected</fullName>
+                <default>false</default>
+                <label>Beneficiary Affected</label>
+            </value>
+            <value>
+                <fullName>Program Interruption</fullName>
+                <default>false</default>
+                <label>Program Interruption</label>
+            </value>
+            <value>
+                <fullName>Aggressive Behavior</fullName>
+                <default>false</default>
+                <label>Aggressive Behavior</label>
+            </value>
+            <value>
+                <fullName>Self-Harm</fullName>
+                <default>false</default>
+                <label>Self-Harm</label>
+            </value>
+            <value>
+                <fullName>Suicide Attempt</fullName>
+                <default>false</default>
+                <label>Suicide Attempt</label>
+            </value>
+            <value>
+                <fullName>Medication Error</fullName>
+                <default>false</default>
+                <label>Medication Error</label>
+            </value>
+            <value>
+                <fullName>Mental Health Episode</fullName>
+                <default>false</default>
+                <label>Mental Health Episode</label>
+            </value>
+            <value>
+                <fullName>Building Damage</fullName>
+                <default>false</default>
+                <label>Building Damage</label>
+            </value>
+            <value>
+                <fullName>Office Closure</fullName>
+                <default>false</default>
+                <label>Office Closure</label>
+            </value>
+            <value>
+                <fullName>Equipment Failure</fullName>
+                <default>false</default>
+                <label>Equipment Failure</label>
+            </value>
+            <value>
+                <fullName>Facility Evacuation</fullName>
+                <default>false</default>
+                <label>Facility Evacuation</label>
+            </value>
+            <value>
+                <fullName>Vehicle Collision</fullName>
+                <default>false</default>
+                <label>Vehicle Collision</label>
+            </value>
+            <value>
+                <fullName>Road Blockage</fullName>
+                <default>false</default>
+                <label>Road Blockage</label>
+            </value>
+            <value>
+                <fullName>Transportation Delay</fullName>
+                <default>false</default>
+                <label>Transportation Delay</label>
+            </value>
+            <value>
+                <fullName>Pedestrian Injury</fullName>
+                <default>false</default>
+                <label>Pedestrian Injury</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
